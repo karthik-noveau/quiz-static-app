@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import data from './QuizData'
 import '../css/quiz.css'
-import bgvideo from '../Assets/bgvideo.mp4';
+
 
 function Quiz() {
 

@@ -99,7 +99,7 @@ body{
     }
     .name_cont p:nth-child(1) {
         margin-top: 0px;
-        margin-bottom: 31px;
+        margin-bottom: 62px;
         font-size: 25px;
         font-weight: bold;
     }
@@ -120,4 +120,8 @@ body{
         margin-bottom: 10px;
         color: white;
     }
+    .quiz_main_cont {
+        margin-top: 78px;
+    }
+    
 }

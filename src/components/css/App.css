@@ -1,0 +1,15 @@
+#bottom_img{
+    display: none;
+}
+
+@media (max-width:600px){
+    #bottom_img{
+        display: block ;
+        width: 100%;
+        position: absolute;
+        bottom: 0px;
+        left: 0;
+        right: 0;
+    }
+
+}
