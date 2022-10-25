@@ -41,7 +41,7 @@ function Quiz() {
                                             (
                                                 <div className='score_pass'>
                                                     <p>Congratulations</p>
-                                                    <p>VICTORY 😊</p>
+                                                    <p>VICTORY 😀</p>
                                                     <p>Your Score : <span id='score_num_pass'>{score} / {data.length}</span></p>
                                                 </div>
 
