@@ -50,7 +50,7 @@ function Quiz() {
                                             (
                                                 <div  className='score_fail'>
                                                      <p>Sorry !!!</p>
-                                                    <p>Better Next Time 😌</p>
+                                                    <p>Better Next Time 😔</p>
                                                     <p>Your Score : <span id='score_num_fail_1'>{score}</span> / <span  id='score_num_fail_2'>{data.length}</span></p>
                                                 </div>
 
