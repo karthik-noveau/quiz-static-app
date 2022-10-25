@@ -174,5 +174,13 @@ body{
         flex-direction: column;
         align-items: center;
     }
+    .score_main_cont {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        height: 100vh;
+        margin-top: -37px;
+    }
     
 }
