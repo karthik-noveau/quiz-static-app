@@ -1,5 +1,6 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import data from './QuizData'
+import { useLocation } from 'react-router-dom';
 import '../css/quiz.css'
 
 
@@ -8,6 +9,10 @@ function Quiz() {
     const [count, setCount] = useState(0);
     const [score, setScore] = useState(0)
     const [scoreTab, setScoreTab] = useState(false);
+
+    const [name, setName] =useState('');
+    const location = useLocation();
+    const linkData = location.state.data;
 
     const prevButton = () => {
 
@@ -24,6 +29,11 @@ function Quiz() {
             setScore(score + 1)
         }
     }
+    var t1="karthik";
+    useEffect(()=>{
+        
+
+    }, [name])
 
     return (
         <div>
@@ -73,10 +83,10 @@ function Quiz() {
                         <div className='quiz_main_cont'>
 
                             <div className='quiz_cont'>
-
+                                
                                 <div className='name_cont'>
                                     <p>React Quiz Application</p>
-                                    <p>Welcome karthik</p>
+                                    <p>Welcome {linkData}</p>
                                 </div>
 
 
