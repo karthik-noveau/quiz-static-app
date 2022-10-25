@@ -1,0 +1,123 @@
+body{
+    background-color: #000038;
+}
+.quiz_main_cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    font-family:'Ubuntu';
+}
+.quiz_cont{
+    width: 40%;
+}
+.name_cont p {
+    text-align: center;
+    font-size: 27px;
+    font-weight: bold;
+    color: white;
+}
+.name_cont p:nth-child(1){
+    margin-top: 0px;
+    margin-bottom: 50px;
+    font-size: 29px;
+}
+.quest_count_cont{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    margin-top:40px;
+}
+.count_cont {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.question_cont p {
+    font-size: 22px;
+    font-weight: 600;
+    color: white;
+}
+.answer_cont{
+    display: flex;
+    flex-direction: column;
+}
+.answer_cont button {
+    padding: 14px 0px;
+    margin: 15px 0px 0px 0px;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    font-size: 17px;
+    background-color: #143991;
+    color: white;
+    cursor: pointer;
+
+}
+.answer_cont button:hover{
+    background-color: #033abd;
+}
+.answer_cont button:active{
+    background-color: #033abd;
+}
+.nxt_btn{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nxt_btn button {
+    padding: 11px 21px;
+    margin: 28px 0px 0px 0px;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    font-size: 17px;
+    background-color: #030338;
+    color: white;
+    width: 45%;
+    cursor: pointer;
+}
+.nxt_btn button:nth-child(1){
+    background-color: #c60000;
+}
+.nxt_btn button:nth-child(2){
+    background-color: green;
+}
+
+
+
+@media (max-width:1200px) {
+    .quiz_cont{
+        width: 50%;
+    }
+}
+
+@media (max-width:600px) {
+    .quiz_cont{
+        width: 80%;
+    }
+    .name_cont p:nth-child(1) {
+        margin-top: 0px;
+        margin-bottom: 31px;
+        font-size: 25px;
+        font-weight: bold;
+    }
+    .name_cont p {
+        text-align: center;
+        font-size: 21px;
+        font-weight: 500;
+        color: white;
+    }
+    .question_cont p {
+        font-size: 19px;
+        font-weight: 500;
+        color: white;
+    }
+    .count_cont {
+        font-size: 17px;
+        font-weight: bold;
+        margin-bottom: 10px;
+        color: white;
+    }
+}
