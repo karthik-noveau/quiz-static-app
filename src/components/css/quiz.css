@@ -125,6 +125,16 @@ body{
     color: #00f600;
     font-weight: bold;
 }
+.score_btn {
+    border-radius: 6px;
+    padding: 8px 5px;
+    border: transparent;
+    width: 100%;
+    font-size: 16px;
+    margin-bottom: 18px;
+    color: white;
+    background-color: #00002d;
+}
 
 
 

@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import {Link} from 'react-router-dom'
 import data from './QuizData'
 import { useLocation } from 'react-router-dom';
 import '../css/quiz.css'
@@ -53,6 +54,7 @@ function Quiz() {
                                                     <p>Congratulations</p>
                                                     <p>VICTORY 😀</p>
                                                     <p>Your Score : <span id='score_num_pass'>{score} / {data.length}</span></p>
+                                                    <Link to='/'><button className='score_btn'>Play Again</button></Link>
                                                 </div>
 
                                             )
@@ -62,6 +64,7 @@ function Quiz() {
                                                      <p>Sorry !!!</p>
                                                     <p>Better Next Time 😔</p>
                                                     <p>Your Score : <span id='score_num_fail_1'>{score}</span> / <span  id='score_num_fail_2'>{data.length}</span></p>
+                                                    <Link to='/'><button className='score_btn'>Play Again</button></Link>
                                                 </div>
 
                                             )
