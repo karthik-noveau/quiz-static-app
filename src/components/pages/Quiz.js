@@ -17,6 +17,8 @@ function Quiz() {
 
     const prevButton = () => {
 
+
+        if(count>0)
         setCount(count - 1);
 
     }
