@@ -22,9 +22,9 @@ const data = [
     {
         question: 'Which component is used to compile, debug and execute the java programs?',
         options: [
-            { opt: 'JRE', ans: true },
+            { opt: 'JRE', ans: false },
             { opt: 'JIT', ans: false },
-            { opt: 'JDK', ans: false },
+            { opt: 'JDK', ans: true },
             { opt: 'JVM', ans: false }
         ]
     },
@@ -137,9 +137,9 @@ const data = [
     {
         question: 'Which keyword in java is used for exception handling?',
         options: [
-            { opt: 'exep', ans: true },
+            { opt: 'exep', ans: false },
             { opt: 'excepHand', ans: false },
-            { opt: 'throw', ans: false },
+            { opt: 'throw', ans: true },
             { opt: 'All of these', ans: false }
         ]
     },
@@ -148,7 +148,7 @@ const data = [
         options: [
             { opt: 'next()', ans: false },
             { opt: 'nextLine()', ans: false },
-            { opt: 'Both A. and B.', ans: true },
+            { opt: 'next() and nextLine()', ans: true },
             { opt: 'None of these', ans: false }
         ]
     },
