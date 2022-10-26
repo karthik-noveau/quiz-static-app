@@ -17,7 +17,7 @@ function Home() {
     const [text, setText] =React.useState('');
 
     const handelClicked = (e)=>{
-        console.log("name "+e.target.value)
+       
         setText(e.target.value)
     }
   
@@ -40,6 +40,7 @@ function Home() {
                             fullWidth
                             variant="standard"
                             onChange={handelClicked}
+                            autoComplete='off'
                         />
                     </DialogContent>
                     <DialogActions>

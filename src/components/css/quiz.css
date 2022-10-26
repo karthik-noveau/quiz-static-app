@@ -59,9 +59,7 @@ body{
 .answer_cont button:hover{
     background-color: #033abd;
 }
-.answer_cont button:active{
-    background-color: #033abd;
-}
+    
 .nxt_btn{
     display: flex;
     justify-content: space-between;
@@ -73,14 +71,20 @@ body{
     border-radius: 5px;
     border: 1px solid transparent;
     font-size: 17px;
-    background-color: #030338;
     color: white;
     width: 45%;
     cursor: pointer;
 }
-.nxt_btn button:nth-child(1){
+#next_f_btn{
     background-color: #c60000;
+    width: 100%;
+   
 }
+#nxt_Link_btn{
+    width: 40%;
+    
+}
+    
 .nxt_btn button:nth-child(2){
     background-color: green;
 }

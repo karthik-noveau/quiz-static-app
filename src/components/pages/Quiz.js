@@ -116,7 +116,7 @@ function Quiz() {
                                 </div>
 
                                 <div className='nxt_btn'>
-                                    <button>Quit</button>
+                                  <Link to="/" style={{textDecoration:"none"}} id="nxt_Link_btn"><button id="next_f_btn" >Quit</button></Link>
                                     <button onClick={prevButton}>Prev</button>
                                 </div>
                             </div>
