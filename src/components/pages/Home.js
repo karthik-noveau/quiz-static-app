@@ -41,6 +41,7 @@ function Home() {
                             variant="standard"
                             onChange={handelClicked}
                             autoComplete='off'
+                            className="intxtforfocus"
                         />
                     </DialogContent>
                     <DialogActions>

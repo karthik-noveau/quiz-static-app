@@ -9,6 +9,13 @@ body{
     margin-top: 50px;
     font-family:'Ubuntu';
 }
+.css-1e6y48t-MuiButtonBase-root-MuiButton-root{
+    color: #000016 !important;
+    font-weight: bold !important;
+}
+.intxtforfocus:focus{
+    color: #000016 !important;
+}
 .quiz_cont{
     width: 40%;
 }
